@@ -1,3 +1,5 @@
+package ru.practicum.moviehub.http;
+
 import com.google.gson.Gson;
 import handlersandserver.MoviesServer;
 import org.junit.jupiter.api.*;
