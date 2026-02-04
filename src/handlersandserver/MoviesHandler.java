@@ -1,7 +1,6 @@
 package handlersandserver;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.sun.net.httpserver.HttpExchange;
 import errors.ErrorResponse;
 import errors.IdAlreadyExistsException;
@@ -12,11 +11,6 @@ import workingwithmovies.MoviesStore;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.List;
-
-
-class MoviesList extends TypeToken<List<Movie>> {
-}
 
 class MoviesHandler extends BaseHttpHandler {
     private final MoviesStore moviesStore;
