@@ -1,4 +1,4 @@
-package errors;
+package Errors;
 
 public class MovieAlreadyExistsException extends RuntimeException {
     public MovieAlreadyExistsException(String message) {

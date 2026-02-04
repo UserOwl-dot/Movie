@@ -1,8 +1,8 @@
-package workingWithMovies;
+package WorkingWithMovies;
 
-import errors.IdAlreadyExistsException;
-import errors.MovieAlreadyExistsException;
-import errors.MovieNotFoundException;
+import Errors.IdAlreadyExistsException;
+import Errors.MovieAlreadyExistsException;
+import Errors.MovieNotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;

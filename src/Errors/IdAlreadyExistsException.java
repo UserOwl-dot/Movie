@@ -1,4 +1,4 @@
-package errors;
+package Errors;
 
 public class IdAlreadyExistsException extends RuntimeException {
     public IdAlreadyExistsException(String message) {

@@ -1,4 +1,4 @@
-package errors;
+package Errors;
 
 public class MovieNotFoundException extends RuntimeException {
     public MovieNotFoundException(String message) {

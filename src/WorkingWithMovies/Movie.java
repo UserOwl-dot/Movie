@@ -1,4 +1,4 @@
-package workingWithMovies;
+package WorkingWithMovies;
 
 import java.util.Objects;
 
