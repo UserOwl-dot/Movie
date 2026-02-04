@@ -1,4 +1,4 @@
-package workingWithMovies;
+package workingwithmovies;
 
 import errors.IdAlreadyExistsException;
 import errors.MovieAlreadyExistsException;

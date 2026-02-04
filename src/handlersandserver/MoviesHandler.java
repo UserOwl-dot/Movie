@@ -1,4 +1,4 @@
-package handlersAndServer;
+package handlersandserver;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -7,8 +7,8 @@ import errors.ErrorResponse;
 import errors.IdAlreadyExistsException;
 import errors.MovieAlreadyExistsException;
 import errors.MovieNotFoundException;
-import workingWithMovies.Movie;
-import workingWithMovies.MoviesStore;
+import workingwithmovies.Movie;
+import workingwithmovies.MoviesStore;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
