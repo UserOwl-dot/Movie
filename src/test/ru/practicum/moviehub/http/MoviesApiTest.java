@@ -61,13 +61,8 @@ public class MoviesApiTest {
 
     @Test
     void post_Movie_return_OK() throws Exception {
-        String jsonBody = """
-                {
-                    "id": 1,
-                    "title": "Новый фильм",
-                    "durationMinutes": 120
-                }
-                """;
+        Movie movie = new Movie(1, "Новый фильм", 120);
+        String jsonBody = gson.toJson(movie);
 
         HttpRequest req = HttpRequest.newBuilder()
                 .uri(URI.create(BASE + "/movies"))
@@ -86,13 +81,9 @@ public class MoviesApiTest {
 
     @Test
     void post_Exists_Movie_returnError() throws IOException, InterruptedException {
-        String jsonBody = """
-                {
-                    "id": 1,
-                    "title": "Новый фильм",
-                    "durationMinutes": 120
-                }
-                """;
+               
+        Movie movie = new Movie(1, "Новый фильм", 120);
+        String jsonBody = gson.toJson(movie);
 
         HttpRequest req = HttpRequest.newBuilder()
                 .uri(URI.create(BASE + "/movies"))
