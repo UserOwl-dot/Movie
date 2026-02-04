@@ -81,7 +81,6 @@ public class MoviesApiTest {
 
     @Test
     void post_Exists_Movie_returnError() throws IOException, InterruptedException {
-               
         Movie movie = new Movie(1, "Новый фильм", 120);
         String jsonBody = gson.toJson(movie);
 
