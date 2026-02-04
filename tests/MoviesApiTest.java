@@ -1,7 +1,7 @@
 import com.google.gson.Gson;
-import HandlersAndServer.MoviesServer;
+import handlersAndServer.MoviesServer;
 import org.junit.jupiter.api.*;
-import WorkingWithMovies.Movie;
+import workingWithMovies.Movie;
 
 import java.io.IOException;
 import java.net.URI;

@@ -1,4 +1,4 @@
-package Errors;
+package errors;
 
 public class ErrorResponse {
     private int status;

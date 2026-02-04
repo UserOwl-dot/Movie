@@ -1,7 +1,7 @@
-package HandlersAndServer;
+package handlersAndServer;
 
 import com.sun.net.httpserver.HttpServer;
-import WorkingWithMovies.MoviesStore;
+import workingWithMovies.MoviesStore;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
