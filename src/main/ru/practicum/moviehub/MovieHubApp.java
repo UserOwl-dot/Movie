@@ -1,3 +1,5 @@
+package ru.practicum.moviehub;
+
 import handlersandserver.MoviesServer;
 
 public class MovieHubApp {
